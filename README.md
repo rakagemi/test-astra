@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## For Password Requirements
+Password must be 8 or more characters, 
+must contain atleast 1 number, must contain atleast 1 special character, must contain atleast 1 capitol letter.
+For Example login :
+username: admin@mail.com
+password: mails!23
+
 ## Available Scripts
 
 In the project directory, you can run:
