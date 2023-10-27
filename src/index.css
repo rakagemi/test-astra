@@ -1,0 +1,248 @@
+body {
+  /* margin: -3rem 0 0 0; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  width: 100%;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.field {
+  margin-bottom: 0.8rem;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+
+}
+
+.parrentForm {
+  margin: auto;
+  max-width: 350px;
+}
+
+.titleP {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+}
+
+.card {
+  border-radius: 20px !important;
+
+}
+
+.divImgP,
+.card {
+  width: 100%;
+  /* height: 300px;
+  max-height: 300px; */
+  border-radius: 50px;
+  max-width: 320px;
+  margin: auto;
+
+}
+
+.imgP {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.20));
+
+}
+
+.imgProfile {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.divImgSub {
+  width: 100%;
+  height: 100%;
+}
+
+.imgSub {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.colCar8 {
+  position: relative;
+
+
+}
+
+.cardN {
+  /* width: 100%; */
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  bottom: -60px;
+  margin: auto;
+  max-width: 300px;
+}
+
+.cardNS {
+  /* width: 100%; */
+
+}
+
+.row1 {
+  margin-bottom: 5rem !important;
+}
+
+.row2 {
+  margin-bottom: 2rem;
+}
+
+.row3 {
+  margin-bottom: 1.5rem;
+}
+
+.cardsub2 {
+  max-width: 180px;
+}
+
+.colCard8Row2 {
+  width: 90% !important;
+}
+
+.cardNS {
+  max-width: 300px;
+  margin: 0 0.6rem;
+}
+
+.colCard4Row2 {
+  position: absolute;
+}
+
+.divImgSub2 {
+  position: absolute;
+  width: 100%;
+  right: -3rem;
+  top: 1rem;
+}
+
+.imgSub2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.divImgSub3 {
+  position: absolute;
+  width: 100%;
+  right: 2rem;
+  top: 1rem;
+  z-index: 9;
+}
+
+.imgSub3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  /* .colCar8 {
+    width: 50% !important;
+  } */
+
+  .parrentForm {
+    max-width: 310px;
+  }
+
+  .divImgSub {}
+
+  .cardN {
+    width: 100%;
+  }
+
+  .imgProfile {
+    width: 25px;
+    height: 25px;
+  }
+
+  .colCard8Row2 {
+    width: 90% !important;
+  }
+
+  .cardNS {
+    max-width: 300px;
+    margin: 0 0.6rem;
+  }
+
+  .colCard4Row2 {
+    position: relative;
+  }
+
+  .divImgSub2 {
+    position: absolute;
+    width: 100%;
+    right: -7rem;
+    /* top: 1rem; */
+    top: -8rem;
+    z-index: 9;
+  }
+
+  .imgSub2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+
+  /* .divImgSub2 {
+    position: absolute;
+    width: 100%;
+    right: -5rem;
+    top: 1rem;
+  } */
+
+  .colCard8Row3 {
+    width: 90% !important;
+  }
+
+  .divImgSub3 {
+    position: absolute;
+    width: 100%;
+    right: 6rem;
+    /* top: 1rem; */
+    top: -8rem;
+    z-index: 9;
+  }
+
+  .imgSub3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+
+}
